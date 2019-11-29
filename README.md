@@ -1,9 +1,9 @@
 # How to start
 
 1. Create new virtualenv (pyenv)
-1. `pip install -r requirements.txt
-1. python manage.py migrate
-1. python manage.py runserver
+1. `pip install -r requirements.txt`
+1. `python manage.py migrate`
+1. `python manage.py runserver`
 
 This starts a webserver running on <http://127.0.0.1:8000>
 
