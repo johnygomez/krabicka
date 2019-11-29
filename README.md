@@ -23,3 +23,10 @@ Note: You can use the LDAP user to login to app, but not to admin site, for that
 set `AUTH_LDAP_USER_FLAGS_BY_GROUP` in <krabicka/settings.py>.
 
 More info at <https://django-auth-ldap.readthedocs.io/en/latest/users.html#easy-attributes>
+
+# Further extensions
+It seems it's pretty straightforward to extend the solution by e.g.:
+1. SAML connector <https://django-oauth-toolkit.readthedocs.io/en/latest/tutorial/tutorial_01.html>
+1. Being a Oauth2 provider <https://django-oauth-toolkit.readthedocs.io/en/latest/tutorial/tutorial_01.html>
+1. Custom per-entity permissions and rules <https://github.com/dfunckt/django-rules>
+1. ...
