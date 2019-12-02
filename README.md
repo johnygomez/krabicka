@@ -10,6 +10,7 @@ This starts a webserver running on <http://127.0.0.1:8000>
 # How to use
 
 1. Create a superuser: `python manage.py createsuperuser`
+1. Create an RSA KeyL: `python manage.py creatersakey`
 1. Enter <http://127.0.0.1:8000/admin> where you can login using your superuser credentials
 1. Create new OID application in _OPENID CONNECT PROVIDER_ section, which will generate Client ID/Secret you can use in your client application
 1. In your client application, point to `http://127.0.0.1:8000/openid` as oidc provider
